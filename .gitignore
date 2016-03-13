@@ -161,3 +161,6 @@ TSWLatexianTemp*
 
 # build script
 compile
+
+auto/
+Chapters/auto/
