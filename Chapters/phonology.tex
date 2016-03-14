@@ -50,46 +50,76 @@ The back vowel u is divided allophonetically into two sounds: the default u, and
 the somewhat centralised \textipa{\"u} which tends towards the \textipa{U} sound
 and is accordingly more lax than the default.
 
-\section{Syllables}\index{Syllables}
-
-\begin{itemize}
-\item Syllables take the form C\textsubscript{1}V\textsubscript{1} (C\textsubscript{2}).
-\item A word is usually 2--4 syllables plus one or more single-syllable suffixes.
-\item Stress always falls on the first syllable of each word.
-\end{itemize}
-
 \section{Phonotactics}\index{Phonotactics}
 
-Some allophonetic variation occurs during pronounciation.
+\subsection{Syllables and Morae}\index{Syllables}
+
+The structure of Ngujari words is simple, with syllables taking the form CV: one
+consonant is followed by one vowel. A root word is usually between two and four
+syllables long, plus any affixes which tend to be single-syllable. In addition,
+words can be broken into \textit{morae}. A syllable containing a short vowel is
+worth one mora, but those containing long vowels are worth two. This distinction
+becomes important when dealing with prosody in \autoref{prosody}.
+
 
 \subsection{Vowels}
 
-The u phoneme becomes centralised following bilabial consonants p, m, and w.
+The \textit{u} phoneme becomes centralised following some bilabial consonants p, m, and w.
+
+\begin{quote}
+\phonc{u}{\textipa{\"u}}{\oneof{p \phold\\ m \phold\\ w \phold}}
+\end{quote}
 
 The i and a phonemes are nasalised before alveolar and post-alveolar nasals.
 
-i->\textipa{\~i}
-a->\textipa{\~a}
+\begin{quote}
+\begin{multicols}{2}
+\phonc{i}{\textipa{\~i}}{\oneof{\phold \textipa{\|]{n}}\\ \phold
+    \textipa{\textsubsquare{n}}}}
 
-\subsection{Rhotics}
+\phonc{a}{\textipa{\~a}}{\oneof{\phold \textipa{\|]{n}}\\ \phold
+    \textipa{\textsubsquare{n}}}}
+\end{multicols}
+\end{quote}
 
-\phonl{\textipa{\|]r}}{\textipa{\|]R}}{ShortV}
+\subsection{Consonants}
 
-Retroflex approximant (\textipa{\textturnrrtail}) disappears between identical
+\subsubsection{Rhotics}
+
+The alveolar trill becomes a tap if it follows a short vowel, while remaining
+apicalised.
+
+\begin{quote}
+\phonl{\textipa{\|]r}}{\textipa{\|]R}}{\oneof{a\\u\\i}}
+\end{quote}
+
+The retroflex approximant \textipa{\textturnrrtail} disappears between identical
 regular vowels, forming one lengthened vowel.
 
-\subsection{Voicing}
+\begin{quote}
+\phonc{\textipa{\textturnrrtail}}{\o}{\oneof{a \phold a\\ u \phold u\\ i \phold i}}
+\end{quote}
+
+\subsubsection{Voicing}
 
 The voicing process is relatively new to the language, and accordingly not much
 variation is present. Generally, plosives are becoming initially voiced.
 However, in practice the voiced plosive g is the only new voiced consonant
 sufficiently formed to be included as an individual phoneme; the rest are in the
-process of undergoing the differentiation. In the case of the t phoneme, only
-the alveolar form undergoes voicing, as the retroflex cannot begin a word.
+process of undergoing the differentiation. In the case of the \textipa{\|]{t}}
+phoneme, only the alveolar form undergoes voicing, as the retroflex cannot begin
+a word.
 
-k->g
-p->\textipa{\v*p}
-alveolar t->\textipa{\t*p}
+\begin{quote}
+\begin{multicols}{3}
+\phonl{k}{g}{\^{}}
+
+\phonl{p}{\textipa{\v*p}}{\^{}}
+
+\phonl{\textipa{\|]{t}}}{\textipa{\t*p}}{\^{}}\footnote{The phoneme remains
+  apical, but this cannot be expressed in IPA.}
+\end{multicols}
+\end{quote}
 
 \subsection{Historical Sound Changes}\index{Historical Sound Changes}
 
@@ -110,3 +140,17 @@ following is a list of sound changes that have occured:
 A major difference occurs in the case of lengthened vowels, which can
 differentiate words in all positions, rather than just the first syllable as in
 the protolanguage.
+
+\section{Prosody}\index{Prosody}\label{prosody}
+
+Ngujari has a rich prosodic system incorporating stress, intonation, and tempo.
+Stress is dealt with here, but intonation and tempo are left to Part 2 in the
+discussion on pragmatics.
+
+\subsection{Stress}
+Stress follows a simple process. The primary stress is placed on the second mora
+of the word. If that mora is part of the first syllable (i.e. the first syllable
+has a long vowel rendering it bimoraic), the first syllable is stressed.
+Secondary stress is then placed on morae at even intervals, on the 4th, 6th,
+etc. However, if the secondary stress would fall on the second mora of a
+bimoraic syllable, it is skipped.
