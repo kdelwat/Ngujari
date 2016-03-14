@@ -2,8 +2,10 @@
 
 \section{Phonetic Inventory}\index{Phonetic Inventory}
 
+\subsection{Consonants}\index{Consonants}
+
 In terms of phonology, Ngujari has a rich consonantal inventory featuring a
-series of coronal consonants (both laminal and apical), as well as multiple
+large series of coronal consonants (both laminal and apical) and multiple
 rhotics. The following table shows the consonants and their orthographic
 representation in italics (if different from the IPA).
 
@@ -11,19 +13,22 @@ representation in italics (if different from the IPA).
 \centering
 \begin{tabular}{rcccccc}
   & \textbf{bilabial} & \textbf{alveolar} & \textbf{post-alveolar} & \textbf{retroflex} & \textbf{palatal} & \textbf{velar}\\
-  \textbf{plosive} & \textipa{p} & \textipa{\|]{t}}\textit{(t)} & & \textipa{\|{]}{\:t}}\textit{(rt)} & & \textipa{k}, \textipa{g}\\
-  \textbf{nasal} & \textipa{m} & \textipa{\|]{n}}\textit{(n)} & \textipa{\textsubsquare{n}}\textit{(nn)} & \textipa{\|{]}{\:n}}\textit{(rn)} & & \textipa{N}\textit{(ng)}\\
+  \textbf{plosive} & \textipa{p} & \textipa{\|]{t}}\textit{(t)} & & \textipa{\|{]}{\textrtailt}}\textit{(rt)} & & \textipa{k}, \textipa{g}\\
+  \textbf{nasal} & \textipa{m} & \textipa{\|]{n}}\textit{(n)} & \textipa{\textsubsquare{n}}\textit{(nn)} & \textipa{\|{]}{\textrtailn}}\textit{(rn)} & & \textipa{N}\textit{(ng)}\\
   \textbf{trill} & & \textipa{\|]{r}}\textit{(rr)} & & & &\\
   \textbf{tap} & & \textipa{\|]R}\textit{(rr)} & & & &\\
   \textbf{fricative} & & & \textipa{Z}\textit{(j)} & & &\\
-  \textbf{approximant} & \textipa{w} & & & \textipa{\:R}\textit{(r)} & \textipa{j}\textit{(y)} &\\
-  \textbf{lateral approximant} & & \textipa{\|]{l}}\textit{(l)} & & \textipa{\|]{\:l}}\textit{(rl)} & &\\
+  \textbf{approximant} & \textipa{w} & & & \textipa{\textturnrrtail}\textit{(r)} & \textipa{j}\textit{(y)} &\\
+  \textbf{lateral approximant} & & \textipa{\|]{l}}\textit{(l)} & & \textipa{\|]{\textrtaill}}\textit{(rl)} & &\\
 \end{tabular}
 \caption{Consonantal Inventory}
 \end{table}
 
+\subsection{Vowels}\index{Vowels}
+
 The vowel palette is very restricted, limited to just a, i, and u, as well as
-their lengthened versions, represented orthographically by repeating the letter.
+their lengthened versions. The long vowels are contrastive in all locations.
+These phonemes are found in the following table.
 
 \begin{table}[h]
 \centering
@@ -35,16 +40,71 @@ their lengthened versions, represented orthographically by repeating the letter.
 \caption{Vowel Inventory}
 \end{table}
 
-\section{Phonotactics}\index{Phonotactics}
+Orthographically, the short vowels are expressed according to their IPA
+representation. Long vowels are simply the short vowel doubled.
 
-Some phonotactic rules apply:
+The front vowels (i and a) are phonetically tense. Both have a nasalised
+allophone.
+
+The back vowel u is divided allophonetically into two sounds: the default u, and
+the somewhat centralised \textipa{\"u} which tends towards the \textipa{U} sound
+and is accordingly more lax than the default.
+
+\section{Syllables}\index{Syllables}
 
 \begin{itemize}
 \item Syllables take the form C\textsubscript{1}V\textsubscript{1} (C\textsubscript{2}).
 \item A word is usually 2--4 syllables plus one or more single-syllable suffixes.
-\item Words may not begin with a liquid or retroflex consonant.
 \item Stress always falls on the first syllable of each word.
 \end{itemize}
+
+\section{Phonotactics}\index{Phonotactics}
+
+Some allophonetic variation occurs during pronounciation.
+
+\subsection{Consonant Clusters}\index{Consonant Clusters}
+
+Consonant clusters only ever have two consonants, owing to the syllable
+structure of the language, and accordingly are easy to classify. Four general
+rules apply to the legal clusters in the language:
+
+1. Retroflex consonants can not appear in a cluster.
+2. Two coronal consonants can not appear together in a cluster.
+3. Two plosives can not appear together in a cluster.
+4. An approximant or fricative can not be the first consonant in the cluster.
+
+plosives unreleased before nasals
+
+
+
+\subsection{Vowels}
+
+The u phoneme becomes centralised following bilabial consonants p, m, and w.
+
+The i and a phonemes are nasalised before alveolar and post-alveolar nasals.
+
+i->\textipa{\~i}
+a->\textipa{\~a}
+
+\subsection{Rhotics}
+
+\phonl{\textipa{\|]r}}{\textipa{\|]R}}{ShortV}
+
+Retroflex approximant (\textipa{\textturnrrtail}) disappears between identical
+regular vowels, forming one lengthened vowel.
+
+\subsection{Voicing}
+
+The voicing process is relatively new to the language, and accordingly not much
+variation is present. Generally, plosives are becoming initially voiced.
+However, in practice the voiced plosive g is the only new voiced consonant
+sufficiently formed to be included as an individual phoneme; the rest are in the
+process of undergoing the differentiation. In the case of the t phoneme, only
+the alveolar form undergoes voicing, as the retroflex cannot begin a word.
+
+k->g
+p->\textipa{\v*p}
+alveolar t->\textipa{\t*p}
 
 \subsection{Historical Sound Changes}\index{Historical Sound Changes}
 
@@ -56,10 +116,8 @@ following is a list of sound changes that have occured:
   voiced post-alveolar fricative (\textipa{Z}).
 \item Apicalised alveolar trill (\textipa{\|]r}) becomes apicalised alveolar tap
   (\textipa{\|]R}) immediately following regular vowels.
-\item Unvoiced velar plosive (\textipa{k}) voices to \textipa{g} following
-  \textipa{u} or \textipa{u:}.
-\item Retroflex approximant (\textipa{\:R}) disappears between identical regular
-  vowels, forming one lengthened vowel.
+\item Retroflex approximant (\textipa{\textturnrrtail}) disappears between
+  identical regular vowels, forming one lengthened vowel.
 \item Apicalised alveolar lateral approximant (\textipa{\|]l}) disappears from
   the end of words.
 \end{itemize}
