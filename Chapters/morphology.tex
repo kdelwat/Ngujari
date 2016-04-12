@@ -31,13 +31,13 @@ indicated in the following table.
 \begin{tabular}{lcc}
 \textbf{case} & \textbf{abbreviation} & \textbf{suffix}\\
 ergative & \textsc{erg} & -\\
-nominative & \textsc{nom} & -wa\\
-accusative & \textsc{abs} & -rru\\
+nominative & \textsc{nom} & -j\\
+accusative & \textsc{abs} & -l\\
 instrumental & \textsc{ins} & -ma\\
-comitative & \textsc{com} & -yii\\
-orientative & \textsc{ori} & -rni\\
-revertive & \textsc{rev} & -nga\\
-locative & \textsc{loc} & -ru\\
+comitative & \textsc{com} & -yi\\
+orientative & \textsc{ori} & -rnu\\
+revertive & \textsc{rev} & -rna\\
+locative & \textsc{loc} & -rn\\
 \end{tabular}
 \caption{Case Suffixes}
 \end{table}
@@ -90,13 +90,13 @@ shows the declensions of the noun \textit{naju}, or ``rock''.
 \begin{tabular}{lll}
 \textbf{case} & \textbf{word} & \textbf{meaning}\\
 ergative & naju & -\\
-nominative & najuwa & -\\
-accusative & najurru & -\\
+nominative & najuj & -\\
+accusative & najul & -\\
 instrumental & najuma & ``using the rock''\\
-comitative & najuyii & ``in the presence of the rock''\\
-orientative & najurni & ``oriented towards the rock''\\
-revertive & najunga & ``orientated away from the rock''\\
-locative & najuu & ``at the rock''\\
+comitative & najuyi & ``in the presence of the rock''\\
+orientative & najurnu & ``oriented towards the rock''\\
+revertive & najurna & ``orientated away from the rock''\\
+locative & najurn & ``at the rock''\\
 \end{tabular}
 \caption{Examples of Nominal Case Declensions}
 \end{table}
@@ -124,9 +124,9 @@ The three classes are:
 \centering
 \begin{tabular}{lccc}
 \textbf{class} & \textbf{ending} & \textbf{auxiliary} & \textbf{negative particle}\\
-\textbf{first} & -rr & kuurl & tu\\
-\textbf{second} & -j & ngiy & ti\\
-\textbf{third} & -nn & wann & wuu\\
+\textbf{first} & -rr & k- & tu\\
+\textbf{second} & -j & j- & ti\\
+\textbf{third} & -nn & nn- & wuu\\
 \end{tabular}
 \caption{Verb Classes}
 \end{table}
@@ -209,8 +209,8 @@ third & arruu & u & iwu & aa\\
 \centering
 \begin{tabular}{lccc}
 \textbf{class} & \textbf{1st} & \textbf{2nd} & \textbf{3rd} \\
-first, second & -           & ku          & nni    \\
-third & -           & ku          & ni    \\
+first, second & -           & n          & m    \\
+third & -           & ku          & mi    \\
 \end{tabular}
 \caption{Person of Subject}
 \end{table}
@@ -221,8 +221,8 @@ third & -           & ku          & ni    \\
 \centering
 \begin{tabular}{lcccc}
 \textbf{class} & \textbf{remote past} & \textbf{past} & \textbf{present} & \textbf{future}\\
-first & arlu & a & --- & aa \\
-second & arlu & a & --- & aju\\
+first & arlu & a & i & aa \\
+second & arlu & a & i & aa\\
 third & una & uma & uu & uuki\\
 \end{tabular}
 \caption{Tense}
@@ -234,7 +234,7 @@ third & una & uma & uu & uuki\\
 \textbf{class} & \textbf{subjunctive} & \textbf{weak imperative} & \textbf{strong imperative} & \textbf{gnomic} & \textbf{dubious}\\
 first &  tiru & yii & ju & nga & tila\\
 second & tirlu & yii & yuu & nga & ti\\
-third &  tirlu & yii &  aru & nga & ti\\
+third &  tirlu & yii &  ju & nga & ti\\
 \end{tabular}
 \caption{Mood}
 \end{table}
@@ -283,8 +283,12 @@ attributive form is unmarked, and can be used directly in noun phrases to
 describe the noun. The predicate form can only be used in predicative phrases,
 and is declined according to the gender of the noun it applies to.
 
-To decline a predicate adjective, the final vowel is dropped and the same
-gender declension as followed by class one verbs is applied.
+To decline a predicate adjective, two steps are required:
+
+\begin{enumerate}
+\item If the adjective ends in a vowel, its last consonant is added to the end. Otherwise, it is unmodified.
+\item The relevant gender suffix of a class one verb is added as a suffix.
+\end{enumerate}
 
 Adverbs are not declined, but are divided semantically into the classes manner
 (hastily, carefully) and temporal (last week, yesterday). The class of an adverb
