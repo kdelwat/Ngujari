@@ -56,8 +56,9 @@ and is accordingly more lax than the default.
 The structure of Ngujari words is simple, with syllables taking the form CV(C):
 one consonant is followed by one vowel and an optional consonant (dependent on
 permitted consonant clusters). A root word is usually between two and four
-syllables long, plus any affixes, which tend to be single-syllable. In addition,
-words can be broken into \textit{morae}. A syllable containing a short vowel is
+syllables long, plus any affixes, which tend to be single-syllable.
+
+Words can be broken into \textit{morae}. A syllable containing a short vowel is
 worth one mora, but those containing long vowels are worth two. This distinction
 becomes important when dealing with prosody in \autoref{prosody}.
 
@@ -90,7 +91,20 @@ a \textrightarrow \textipa{\~a} / \_ \{\textipa{\|]{n}}, \textipa{\textsubsquare
 
 \subsection{Consonants}
 
-\subsubsection{Clusters}
+\subsubsection{Positioning}
+
+There are some restrictions placed on consonant clusters. The following combinations are the only allowable clusters:
+
+\begin{itemize}
+\item rhotic/liquid + non-retroflex nasal
+\item rhotic/liquid + non-rhotic approximant
+\item nasal + non-rhotic approximant/stop
+\item approximant + stop
+\item retroflex + stop
+\end{itemize}
+
+In terms of other restrictions, approximants are never found at the end of a
+word.
 
 \subsubsection{Rhotics}
 
